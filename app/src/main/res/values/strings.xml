@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VolleyMobile</string>
+    <array name="category">
+        <item>Fashion</item>
+        <item>Electronics</item>
+        <item>Motors</item>
+        <item>Movies</item>
+        <item>Books</item>
+        <item>Sports</item>
+    </array>
+</resources>
