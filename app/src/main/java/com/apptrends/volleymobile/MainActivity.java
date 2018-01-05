@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
         mProgressDialog = new ProgressDialog(this);
         mProgressDialog.setMessage("loading");
-
         mRefresh = findViewById(R.id.refresh);
         recyclerView = findViewById(R.id.myRecyclerView);
         recyclerView.setHasFixedSize(true);
