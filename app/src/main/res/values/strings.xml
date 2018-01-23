@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VolleyMobile</string>
+    <string name="app_name">VolleyAndroid</string>
     <array name="category">
         <item>Fashion</item>
         <item>Electronics</item>

@@ -5,39 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.apptrends.volleymobile.AddProductsActivity">
+    android:padding="15dp"
+    tools:context="com.apptrends.volleyandroid.AddProductsActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nameAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Name"
-     />
+        android:inputType="textCapWords" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/emailAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Description"
-      />
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/genderAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-        android:hint="Price"
-         />
+        android:hint="Gender"
+        android:inputType="textCapWords" />
 
-    <Spinner
-        android:entries="@array/category"
-        android:id="@+id/spinner"
+    <EditText
+        android:id="@+id/cityAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-  />
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/countryAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Country"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Data" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

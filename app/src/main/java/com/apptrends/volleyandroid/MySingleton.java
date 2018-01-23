@@ -1,4 +1,4 @@
-package com.apptrends.volleymobile;
+package com.apptrends.volleyandroid;
 
 import android.content.Context;
 
